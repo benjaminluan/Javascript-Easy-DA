@@ -1,0 +1,36 @@
+.clock {
+  height: 500px;
+  width: 500px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 9999px;
+  display: inline-block;
+  position: relative;
+  transform: rotate(270deg);
+}
+
+#clock__hand--hour {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 5px solid black;
+  transform-origin: top left;
+}
+#clock__hand--minute {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 3px solid blue;
+  transform-origin: top left;
+}
+#clock__hand--second {
+  width: 220px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-top: 1px solid red;
+  transform-origin: top left;
+}
